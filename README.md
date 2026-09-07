@@ -1,13 +1,19 @@
 # Circle Arc Constraint Accuracy
 
-A small study of the accuracy of geometric constructions for circular arcs, using FreeCAD
+A small study of the accuracy of geometric constructions for circular arcs in FreeCAD.
 
-The constructions can be used in two directions:
+**Or: How to constrain either the radius or the arc length of a circle section.**
 
-* constrain the **radius** of the circle and determine the resulting **circumference / arc length**, or
-* constrain the **circumference / arc length** and determine the resulting **radius**.
+For a full circle, the length around the circle is its **circumference**. For only a section of a circle, the corresponding part of the circumference is the **arc length**.
 
-Several sketches were constructed with different levels of accuracy, using either only the center ring or three rings.
+This construction method can therefore be used in both directions:
+
+* constrain the **radius** of a circular arc and determine its resulting **arc length**, or
+* constrain the **arc length** and determine the corresponding **radius**.
+
+The tests below compare the accuracy of this approach for different circle sectors and construction methods.
+
+The FreeCAD project file DETERMINE_arc_length.FCStd is included in this repository. Feel free to use, modify, and adapt it for your own projects.
 
 ## Accuracy
 
